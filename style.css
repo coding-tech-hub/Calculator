@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background:black;
+
+}
+.calculator-body{
+  background-color: #212529;
+  height: 40rem;
+  width: 30rem;
+  border-radius: 15px;
+}
+input{
+  border: none;
+  width: 100%;
+  height: rem;
+  background-color: #212529;
+  height: 7rem;
+  font-size: 3.5rem;
+  padding: 1rem;
+  margin-top: 10px;
+  text-align: right;
+ 
+  color:grey ;
+  outline: none;
+}
+button{
+  height:5rem;
+  width: 5rem;
+  font-size: 3rem;
+  color: grey;
+  background-color: #212529;
+  border-radius: 50%;
+  border: none;
+cursor: pointer;
+  margin: 1.1rem;
+  margin-top: 1.5rem;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.answer{
+  background-color: orangered;
+  color: black;
+  cursor: pointer;
+}
+.delete{
+  font-size: 1.5rem;
+  background-color: orangered;
+  color: black;
+  cursor: pointer;
+}
+.operators{
+  background-color: grey;
+  color: black;
+}
+.header{
+  height: 4rem;
+  background-color: #212529;
+  color: grey;
+  font-size: 1.5rem;
+  text-align: center;
+}
+main{
+  display: flex;
+  justify-content: center;
+margin-top: 10rem;
+  align-items: center;
+}
+
+/* Media queries  for responsivenes*/
+
+@media (max-width : 740px) {
+  .header{
+    height: 4rem;
+    background-color: #212529;
+    color: grey;
+    font-size: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+  }
+}
+@media (max-width : 520px){
+  .header{
+    height: 3rem;
+    background-color: #212529;
+    color: grey;
+    font-size: 0.75rem;
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+  .calculator-body{
+    background-color: #212529;
+    height: 30rem;
+    width: 20rem;
+    border-radius: 15px;
+  }
+
+  input{
+    height: 3rem;
+    font-size: 2rem;
+    margin-top: 10px;
+
+  }
+  button{
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+    color: grey;
+    background-color: #212529;
+    border-radius: 50%;
+    border: none;
+  cursor: pointer;
+    margin: 0.75rem;
+    margin-top: 2.5rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+  main{
+    
+  margin-top: 5rem;
+
+  }
+}
+@media (max-width : 380px){
+  .header{
+    height: 2.5rem;
+    background-color: #212529;
+    color: grey;
+    font-size: 0.55rem;
+    padding-top: 0.5rem;
+    text-align: center;
+  }
+}
